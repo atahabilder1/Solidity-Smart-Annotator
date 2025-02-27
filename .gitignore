@@ -1,0 +1,27 @@
+# Ignore Python Virtual Environment
+backend/venv/
+*.pyc
+__pycache__/
+
+# Ignore Node.js dependencies
+frontend/node_modules/
+frontend/.env
+
+# Ignore IDE and OS-generated files
+.vscode/
+*.log
+.DS_Store
+*.swp
+
+# Ignore compiled and cache files
+*.cache
+*.out
+*.bin
+
+# Ignore uploads and temporary files
+backend/uploads/
+frontend/build/
+frontend/.next/
+
+# Ignore environment files (for API keys, etc.)
+.env
